@@ -1,22 +1,17 @@
 package com.callor.helloapp;
 
 import android.os.Bundle;
-
-import com.google.android.material.snackbar.Snackbar;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.view.View;
-
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.callor.helloapp.databinding.ActivityMainBinding;
-
-import android.view.Menu;
-import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,12 +31,26 @@ public class MainActivity extends AppCompatActivity {
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
-        binding.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "나는 안드로이드", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
+
+//        View.OnClickListener click =
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                    }
+//                };
+
+//        binding.fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view,"나는 안드로이드", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
+
+        // button의 클릭 event
+        binding.fab.setOnClickListener((view)->{
+            Toast.makeText(this, "반갑습니다",Toast.LENGTH_LONG)
+                    .show();
         });
     }
 

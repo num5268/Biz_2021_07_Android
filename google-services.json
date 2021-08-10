@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188470911828",
+    "project_id": "hello-android-1e296",
+    "storage_bucket": "hello-android-1e296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188470911828:android:ba0375969561966ea61ec1",
+        "android_client_info": {
+          "package_name": "com.callor.chatt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188470911828-fg3ag99bv7vptaoc03n3nisbbccu2tch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGDer4PllAIclYYkHVaYNkcxZNQrZPPa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188470911828-fg3ag99bv7vptaoc03n3nisbbccu2tch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

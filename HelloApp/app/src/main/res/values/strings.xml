@@ -8,5 +8,5 @@
     <string name="previous">Previous</string>
 
     <string name="hello_first_fragment">반갑습니다</string>
-    <string name="hello_second_fragment">오늘은 처음 앱만드는날</string>
+    <string name="hello_second_fragment">오늘은 처음 앱 만드는 날. Arg: %1$s</string>
 </resources>
